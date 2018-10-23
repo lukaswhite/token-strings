@@ -1,0 +1,22 @@
+{
+    "name": "lukaswhite/token-strings",
+    "description": "A library for replacing tokens in strings",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lukaswhite",
+            "email": "hello@lukaswhite.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "7.0",
+        "phpunit/php-code-coverage": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lukaswhite\\TokenStrings\\": "src/"
+        }
+    }
+}
